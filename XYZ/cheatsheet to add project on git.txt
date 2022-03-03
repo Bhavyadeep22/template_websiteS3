@@ -1,0 +1,22 @@
+How to add project to GitHub
+Open your project folder and right click and open with gitbash
+
+> git config --global user.name Bhavyadeep
+> git config --global user.email "bhavyadeepsharma@gmail.com"
+> touch .gitignore (to ignore any file )
+> git init (Initialized empty Git repository in F:/my website/template website/.git/)
+> git add .
+> git commit -m "Initial commit"
+> git status
+> ssh-keygen -t ed25519 -C "bhavyadeepsharma@gmail.com" (to create ssh key for your github account)
+> cat /c/Users/Bhavyadeep/.ssh/id_ed25519.pub (copy the key and add it to your githib account )
+> git remote add origin git@github.com:Bhavyadeep22/template_websiteS3.git
+> git push origin master
+    
+
+
+To add changes:
+> save the changes in folder and run git status (to check the changes)
+> git add .
+> git commint -m "Added XYZ cheatsheet for revision"
+> git push origin master
